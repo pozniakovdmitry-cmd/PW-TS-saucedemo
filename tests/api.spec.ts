@@ -23,3 +23,5 @@ test('POST create user returns 201', async ({ request }) => {
   const body = await response.json()
   expect(body.name).toBe('Dmitry')
 })
+
+//CI comment to check
